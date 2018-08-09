@@ -17,4 +17,4 @@ disk:
 	(./putparam.sh disk | telnet 192.168.11.11 80;echo )
 
 test:
-	curl -v -k crashy.local.pcfdev.io
+	curl -v -k stress-app.local.pcfdev.io
